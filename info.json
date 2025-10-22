@@ -1,11 +1,10 @@
 {
-  "name": "custom-temporary-train-stops",
-  "version": "0.3.0",
+  "name": "custom-temporary-train-stops-fork",
   "title": "Custom Temporary Train Stops",
-  "author": "Riptide Sage",
+  "author": "limelou",
   "factorio_version": "2.0",
   "dependencies": [
-	"base >= 1.1"
+	"base >= 2.0"
   ],
-  "description": "Configurable default behavior for temporary train stops."
+  "description": "something"
 }
