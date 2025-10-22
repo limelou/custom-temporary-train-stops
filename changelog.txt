@@ -1,34 +1,5 @@
----------------------------------------------------------------------------------------------------
-Version: 0.3.0
+Version: 0.0.1
   Changes:
-    - Fixing issues with interrupt stations and train groups.
----------------------------------------------------------------------------------------------------
-Version: 0.2.4
-  Changes:
-    - Factorio 2.0 compatibility
----------------------------------------------------------------------------------------------------
-Version: 0.2.3
-  Changes:
-    - Fixed crash on empty train schedules
----------------------------------------------------------------------------------------------------
-Version: 0.2.2
-  Changes:
-    - Added a separate settings for passenger types
----------------------------------------------------------------------------------------------------
-Version: 0.2.1
-  Changes:
-    - Added setting for train stop types:
-		"time", "inactivity", "full", "empty"
----------------------------------------------------------------------------------------------------
-Version: 0.2.0
-  Changes:
-    - Added setting for train wait time
----------------------------------------------------------------------------------------------------
-Version: 0.1.1
-  Changes:
-    - Added thumbnail
-	- changed "ticks =" to 1800
----------------------------------------------------------------------------------------------------
-Version: 0.1.0
-  Changes:
-    - Initial build
+    - Initial fork
+    - If a passenger is in the train, the resulting stop is created with (custom condition) AND (passenger not present)
+    - If a passenger is not in train, the resulting stop is created with (custom condition) AND (passenger present)

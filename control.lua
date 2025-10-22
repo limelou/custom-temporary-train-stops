@@ -57,7 +57,7 @@ script.on_event(defines.events.on_train_schedule_changed, function(event)
 							}
 
                         local with_passengers_condition_part_two = {
-                            type = "passenger_present",
+                            type = "passenger_not_present",
 							compare_type = "and"
 						}
 						
@@ -75,7 +75,7 @@ script.on_event(defines.events.on_train_schedule_changed, function(event)
 
                         local no_passengers_condition_part_two = {
                             type = "passenger_present",
-							compare_type = "or"
+							compare_type = "and"
 						}
 						
 
